@@ -1,0 +1,458 @@
+{
+  "offset": 0,
+  "limit": 0,
+  "total": 41,
+  "entries": [
+    {
+      "id": "P1AA00;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1AA01;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1AA02;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1AA03;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1AA04;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1AA05;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Down",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1AA08;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Down",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1DA03;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1DA04;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1DA06;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1DA07;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1DA08;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": true,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1DA09;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1DA10;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1DA13;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1DA14;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1MA01;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1MA04;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1MA05;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1MA06;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA00;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA01;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA02;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA03;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA05;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA06;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA07;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA08;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA09;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA10;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA12;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA13;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA16;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1NA17;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1RA00;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1RA03;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1RA04;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1RA05;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1RA06;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1RA07;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    },
+    {
+      "id": "P1RA10;entityType=Attraction;destination=dlp",
+      "waitTime": {
+        "fastPass": {
+          "available": false
+        },
+        "status": "Closed",
+        "singleRider": false,
+        "postedWaitMinutes": 0
+      }
+    }
+  ]
+}
