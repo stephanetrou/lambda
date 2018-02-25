@@ -18,7 +18,8 @@
         <kotlin.version>1.2.21</kotlin.version>
         <junit.version>4.12</junit.version>
         <fuel.version>1.12.1</fuel.version>
-        <aws.dynamodb.version>1.11.282</aws.dynamodb.version>
+        <aws.version>1.11.283</aws.version>
+        <aws.lambda.version>1.2.0</aws.lambda.version>
     </properties>
 
     <repositories>
@@ -37,6 +38,12 @@
         </dependency>
 
         <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-reflect</artifactId>
+            <version>${kotlin.version}</version>
+        </dependency>
+        
+        <dependency>
             <groupId>com.github.kittinunf.fuel</groupId>
             <artifactId>fuel</artifactId>
             <version>${fuel.version}</version>
@@ -51,7 +58,13 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-dynamodb</artifactId>
-            <version>${aws.dynamodb.version}</version>
+            <version>${aws.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-lambda-java-core</artifactId>
+            <version>${aws.lambda.version}</version>
         </dependency>
 
         <dependency>
@@ -81,6 +94,19 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>

@@ -10,7 +10,8 @@ sealed class WaitTimesApi : DisneyApi() {
     override val path : String
             get() {
                 return when(this) {
-                    is WaitTimesApi.waitTimes -> return "facility-service/theme-parks/${this.park.id}/wait-times"//"facility-service/theme-parks/${this.park.id};destination\u003d${this.park.resort.id}/wait-times"
+                    // "facility-service/theme-parks/${this.park.id}/wait-times"
+                    is WaitTimesApi.waitTimes -> return "facility-service/theme-parks/${this.park.id};destination\u003d${this.park.resort.id}/wait-times"
                 }
             }
     override val params : List<Pair<String, Any?>>?

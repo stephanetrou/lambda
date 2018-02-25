@@ -20,8 +20,8 @@ sealed class CalendarApi : DisneyApi() {
         get() {
             return when(this) {
                 is calendar -> return listOf("date" to this.date.format(dateTimeFormatter),
-                                                "mode" to this.mode.text,
-                                                "region" to this.region)
+                                             "mode" to this.mode.text,
+                                             "region" to this.region)
             }
         }
 }

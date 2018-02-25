@@ -7,6 +7,7 @@ import com.github.kittinunf.fuel.core.Request
 import com.github.kittinunf.fuel.jackson.responseObject
 import com.github.kittinunf.result.Result
 import fr.st.themepark.authentication.AuthenticationApi
+import fr.st.themepark.authentication.public_auth
 import fr.st.themepark.calendar.CalendarApi
 import fr.st.themepark.facilities.FacilitiesApi
 import fr.st.themepark.schedule.ScheduleApi
@@ -44,31 +45,3 @@ fun main(args: Array<String>) {
         )
     }
 }
-
-fun public_auth(fct : () -> Any?) {
-
-    val (_, _, result) = Fuel.request(AuthenticationApi.accessToken()).responseObject<AccessToken>()
-
-    var interceptor : ((Request) -> Request)? = null
-
-    when (result) {
-        is Result.Success -> {
-            interceptor = authorizationRequestInterceptor(result.value)
-            FuelManager.instance.addRequestInterceptor { interceptor }
-        }
-    }
-
-    fct.invoke()
-
-    if (interceptor != null) {
-        FuelManager.instance.removeRequestInterceptor { interceptor }
-    }
-}
-
-fun authorizationRequestInterceptor(accessToken : AccessToken) : (Request) -> Request {
-    return {
-        val authorization = "${accessToken.tokenType} ${accessToken.accessToken}"
-        it.header("Authorization" to authorization)
-    }
-}
-

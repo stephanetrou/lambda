@@ -5,7 +5,7 @@ import com.github.kittinunf.fuel.jackson.mapper
 import java.util.*
 
 private const val resources = "useragent/useragent-data.json"
-private val userAgent = mapper.readValue<Array<UserAgent>>(ClassLoader.getSystemResourceAsStream(resources))
+private val userAgent = mapper.readValue<Array<UserAgent>>(UserAgent::class.java.classLoader.getResourceAsStream(resources))
 private val random = Random(System.currentTimeMillis())
 
 fun randomUserAgent(filter: (UserAgent) -> Boolean): String {

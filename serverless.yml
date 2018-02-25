@@ -1,0 +1,59 @@
+# Welcome to Serverless!
+#
+# This file is the main config file for your service.
+# It's very minimal at this point and uses default values.
+# You can always add more config options for more control.
+# We've included some commented out config examples here.
+# Just uncomment any of them to get that config option.
+#
+# For full config options, check the docs:
+#    docs.serverless.com
+#
+# Happy Coding!
+
+service: themepark-prediction # NOTE: update this with your service name
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+# frameworkVersion: "=X.X.X"
+
+provider:
+  name: aws
+  runtime: java8
+  memorySize: 256
+  timeout: 30
+  stage: dev
+  region: eu-west-3
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+      - dynamodb:PutItem
+      Resource: "arn:aws:dynamodb:eu-west-3:*:table/wait_time"
+
+# you can add packaging information here
+package:
+  artifact: target/lambda-1.0-SNAPSHOT.jar
+
+functions:
+  wait-time-collector:
+    handler: fr.st.themepark.handler.WaitTimesHandler
+    events:
+      # - http: GET wait_time
+      - schedule: cron(*/10 8-21 * * ? *)
+      
+
+resources:
+  Resources:
+    waitTimeTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: wait_time
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1

@@ -1,6 +1,7 @@
 package fr.st.themepark
 
 import com.github.kittinunf.fuel.core.Method
+import com.github.kittinunf.fuel.core.Request
 import com.github.kittinunf.fuel.util.FuelRouting
 
 
@@ -17,4 +18,7 @@ abstract class DisneyApi : FuelRouting {
             "X-App-Id" to "WDW-MDX-ANDROID-4.4.2",
             "X-Correlation-ID" to System.currentTimeMillis().toString()
     )
+
+    override val request: Request
+        get() = super.request.timeout(5000)
 }
